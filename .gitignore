@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+node_modules
+.env
 /.pnp
 .pnp.js
 .yarn/install-state.gz
@@ -27,6 +29,9 @@ yarn-error.log*
 
 # local env files
 .env*.local
+
+# sensitive credentials
+backend/controllers/cred.json
 
 # vercel
 .vercel
